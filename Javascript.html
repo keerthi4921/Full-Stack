@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    #H1 {
+        color: rgb(232, 238, 240);
+        background-color: rgb(154, 52, 91);
+        text-align: center;
+
+    }
+
+    #B1 {
+        background-color: rgb(14, 178, 33);
+        border-radius: 10px;
+        width: 100px;
+    }
+
+    #B2 {
+        background-color: rgb(238, 57, 57);
+        border-radius: 10px;
+        width: 100px;
+    }
+</style>
+
+<body>
+    <h1 id="H1">Content</h1>
+
+    <button id="B1">Welcome</button>
+
+    <button id="B2">Back</button>
+</body><script>
+    document.getElementById("B1").onclick=function(){
+        document.getElementById("H1").innerHTML="Welcome to my page"
+       
+    }
+    document.getElementById("B2").onclick=function(){
+        document.getElementById("H1").innerHTML="Back to the page"
+       
+    }
+
+
+</script>
+
+</html>
